@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verqen-router"
+version = "1.0.0"
+description = "3ms Multi-Agent Task Router: 97.5% accuracy, 318x cheaper than LLM routing"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "ZorQelis AI" }]
+keywords = ["multi-agent", "routing", "task-router", "verqen", "conformal-prediction", "llm"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.optional-dependencies]
+gpu = ["torch>=2.5", "safetensors>=0.4"]
+langchain = ["langchain>=0.3"]
+crewai = ["crewai>=0.35"]
+autogen = ["pyautogen>=0.4"]
+llamaindex = ["llama-index>=0.11"]
+openai = ["openai>=1.40"]
+dev = ["pytest>=8.0", "build>=1.2"]
+
+[project.urls]
+Homepage = "https://github.com/ZorQelis-AI/verqen-router"
+Repository = "https://github.com/ZorQelis-AI/verqen-router"
+Documentation = "https://github.com/ZorQelis-AI/verqen-router#readme"
+"Bug Tracker" = "https://github.com/ZorQelis-AI/verqen-router/issues"
+
+[tool.setuptools.packages.find]
+include = ["verqen_router*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "live: tests that need a local VerQen checkpoint (set VERQEN_CHECKPOINT)",
+]

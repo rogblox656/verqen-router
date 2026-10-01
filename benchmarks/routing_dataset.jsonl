@@ -1,0 +1,70 @@
+{"id": "route-001", "task": "Run this Python script and report any errors", "context": "", "expected_agent": "code_executor"}
+{"id": "route-002", "task": "Compile and run the Rust benchmark in benches/", "context": "CI pipeline", "expected_agent": "code_executor"}
+{"id": "route-003", "task": "Run the unit tests for the payments module", "context": "", "expected_agent": "code_executor"}
+{"id": "route-004", "task": "Execute this bash command and stream the output", "context": "deploying to production", "expected_agent": "code_executor"}
+{"id": "route-005", "task": "Execute the Jupyter notebook and export results to HTML", "context": "", "expected_agent": "code_executor"}
+{"id": "route-006", "task": "Run the code cell and capture everything printed to stdout", "context": "", "expected_agent": "code_executor"}
+{"id": "route-007", "task": "Build and start the Docker container from this Dockerfile", "context": "local dev environment", "expected_agent": "code_executor"}
+{"id": "route-008", "task": "Find recent news about the Mars sample return mission", "context": "", "expected_agent": "web_search"}
+{"id": "route-009", "task": "Search for the current price of Bitcoin", "context": "", "expected_agent": "web_search"}
+{"id": "route-010", "task": "Look up the official release date of Python 3.13", "context": "", "expected_agent": "web_search"}
+{"id": "route-011", "task": "Find top-rated mechanical keyboards under 100 dollars", "context": "", "expected_agent": "web_search"}
+{"id": "route-012", "task": "Search for research papers on retrieval augmented generation from 2025", "context": "literature review", "expected_agent": "web_search"}
+{"id": "route-013", "task": "Look up who won the last FIFA World Cup", "context": "", "expected_agent": "web_search"}
+{"id": "route-014", "task": "Find the official documentation page for pytest fixtures", "context": "user is a beginner", "expected_agent": "web_search"}
+{"id": "route-015", "task": "Count active users who signed up last week", "context": "analytics dashboard", "expected_agent": "database_query"}
+{"id": "route-016", "task": "Find the top 10 customers by revenue this quarter", "context": "", "expected_agent": "database_query"}
+{"id": "route-017", "task": "Update the status of order 48213 to shipped", "context": "", "expected_agent": "database_query"}
+{"id": "route-018", "task": "Join the orders and products tables to list the best selling items", "context": "", "expected_agent": "database_query"}
+{"id": "route-019", "task": "Show me every row where the email column is null", "context": "data cleanup", "expected_agent": "database_query"}
+{"id": "route-020", "task": "Run an aggregate query that totals monthly signups", "context": "", "expected_agent": "database_query"}
+{"id": "route-021", "task": "Fetch the column schema of the invoices table", "context": "", "expected_agent": "database_query"}
+{"id": "route-022", "task": "Email the weekly report to the team mailing list", "context": "sent every Friday afternoon", "expected_agent": "email_sender"}
+{"id": "route-023", "task": "Send a follow-up thank you note to the recruiter", "context": "", "expected_agent": "email_sender"}
+{"id": "route-024", "task": "Send the invoice for March to Acme Corp accounts payable", "context": "", "expected_agent": "email_sender"}
+{"id": "route-025", "task": "Reply to the customer asking about their refund status", "context": "support thread", "expected_agent": "email_sender"}
+{"id": "route-026", "task": "Email the meeting minutes to everyone who attended", "context": "", "expected_agent": "email_sender"}
+{"id": "route-027", "task": "Notify the admin team about the maintenance window", "context": "", "expected_agent": "email_sender"}
+{"id": "route-028", "task": "Send a password reset link to the user's address on file", "context": "", "expected_agent": "email_sender"}
+{"id": "route-029", "task": "Schedule a 1:1 with my manager for Tuesday at 10am", "context": "", "expected_agent": "calendar_api"}
+{"id": "route-030", "task": "Move the sprint review to next Thursday", "context": "", "expected_agent": "calendar_api"}
+{"id": "route-031", "task": "Find a free 30 minute slot for all attendees this week", "context": "scheduling across time zones", "expected_agent": "calendar_api"}
+{"id": "route-032", "task": "Cancel the daily standup for tomorrow", "context": "", "expected_agent": "calendar_api"}
+{"id": "route-033", "task": "Book the conference room for the quarterly planning offsite", "context": "", "expected_agent": "calendar_api"}
+{"id": "route-034", "task": "Add a recurring reminder for the first of every month", "context": "", "expected_agent": "calendar_api"}
+{"id": "route-035", "task": "Check for scheduling conflicts on Friday afternoon", "context": "", "expected_agent": "calendar_api"}
+{"id": "route-036", "task": "Read the PDF contract and find the termination clause", "context": "", "expected_agent": "document_reader"}
+{"id": "route-037", "task": "Extract the total amount due from this scanned invoice", "context": "image-based PDF", "expected_agent": "document_reader"}
+{"id": "route-038", "task": "List all section headings of this thesis PDF", "context": "", "expected_agent": "document_reader"}
+{"id": "route-039", "task": "Parse this CSV file and tell me how many rows it has", "context": "", "expected_agent": "document_reader"}
+{"id": "route-040", "task": "Read the attached resume and list the candidate's skills", "context": "", "expected_agent": "document_reader"}
+{"id": "route-041", "task": "Find the author and publication date on this article", "context": "", "expected_agent": "document_reader"}
+{"id": "route-042", "task": "Open the config file and report the current timeout setting", "context": "", "expected_agent": "document_reader"}
+{"id": "route-043", "task": "Translate this product description into Japanese", "context": "", "expected_agent": "translator"}
+{"id": "route-044", "task": "Convert this English email into formal German", "context": "", "expected_agent": "translator"}
+{"id": "route-045", "task": "Translate the user review from Spanish to English", "context": "app store reviews", "expected_agent": "translator"}
+{"id": "route-046", "task": "Localize these UI strings into French", "context": "mobile app", "expected_agent": "translator"}
+{"id": "route-047", "task": "Translate the meeting transcript into English", "context": "", "expected_agent": "translator"}
+{"id": "route-048", "task": "Render this sentence in Hindi script", "context": "", "expected_agent": "translator"}
+{"id": "route-049", "task": "Translate the recipe instructions into Italian", "context": "", "expected_agent": "translator"}
+{"id": "route-050", "task": "Compute a 17 percent tip on an 84.50 dollar bill", "context": "", "expected_agent": "calculator"}
+{"id": "route-051", "task": "Convert 45 miles to kilometers", "context": "", "expected_agent": "calculator"}
+{"id": "route-052", "task": "Calculate compound interest for 5 years at 4.5 percent", "context": "", "expected_agent": "calculator"}
+{"id": "route-053", "task": "Calculate the standard deviation of this dataset", "context": "statistics homework", "expected_agent": "calculator"}
+{"id": "route-054", "task": "Figure out the percentage change from 240 to 312", "context": "", "expected_agent": "calculator"}
+{"id": "route-055", "task": "Split a 246 dollar dinner bill between 6 people", "context": "", "expected_agent": "calculator"}
+{"id": "route-056", "task": "Evaluate the arithmetic expression (18 * 4) - 27 / 3", "context": "", "expected_agent": "calculator"}
+{"id": "route-057", "task": "Create a new Markdown file containing these meeting notes", "context": "", "expected_agent": "file_writer"}
+{"id": "route-058", "task": "Write the parsed JSON output to config.json", "context": "", "expected_agent": "file_writer"}
+{"id": "route-059", "task": "Append these log entries to the end of debug.log", "context": "troubleshooting a crash", "expected_agent": "file_writer"}
+{"id": "route-060", "task": "Save the generated CSV report into the outputs folder", "context": "", "expected_agent": "file_writer"}
+{"id": "route-061", "task": "Overwrite README.md with the new project description", "context": "", "expected_agent": "file_writer"}
+{"id": "route-062", "task": "Create the directory structure for the new microservice", "context": "", "expected_agent": "file_writer"}
+{"id": "route-063", "task": "Write this base64 payload out to an image file", "context": "", "expected_agent": "file_writer"}
+{"id": "route-064", "task": "Generate a logo for a coffee shop called Bean and Brew", "context": "", "expected_agent": "image_generator"}
+{"id": "route-065", "task": "Create a hero image of a futuristic city at sunset", "context": "landing page", "expected_agent": "image_generator"}
+{"id": "route-066", "task": "Make an avatar of a robot wearing sunglasses", "context": "profile picture", "expected_agent": "image_generator"}
+{"id": "route-067", "task": "Generate an illustration of a rocket launch", "context": "", "expected_agent": "image_generator"}
+{"id": "route-068", "task": "Produce a photorealistic picture of a snowy mountain cabin", "context": "", "expected_agent": "image_generator"}
+{"id": "route-069", "task": "Draw a minimalist icon for a weather app", "context": "", "expected_agent": "image_generator"}
+{"id": "route-070", "task": "Create a banner image for the spring sale announcement", "context": "ecommerce site", "expected_agent": "image_generator"}
